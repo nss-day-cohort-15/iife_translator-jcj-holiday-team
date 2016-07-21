@@ -3,7 +3,7 @@ var Translator = (function(frenchTranslator){
     "merry": "joyeux",
     "christmas": "Noel",
     "happy": "content",
-    "holidays": "   vacances",
+    "holidays": "vacances",
     "yuletide": "yuletide",
     "greetings": "salutations",
     "season": "saison",
@@ -19,8 +19,8 @@ var Translator = (function(frenchTranslator){
 frenchTranslator.translateToFrench = function(input) {
   var translateSentence = document.getElementById("result");
   var translatedFrench = "";
-  var makeArray = input.toLowerCase().split(" ");
 
+  var makeArray = input.toLowerCase().split(" ");
   makeArray.forEach(function(element){
     translatedFrench += frenchWords[element] + " ";
    })
