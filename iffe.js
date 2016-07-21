@@ -31,4 +31,3 @@ frenchTranslator.translateToFrench = function(input) {
 
  return frenchTranslator;
 })(Translator || {});
-
