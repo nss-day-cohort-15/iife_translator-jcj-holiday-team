@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Translator</title>
+  <title>JCJs Holiday Team | Translator</title>
 </head>
 <body>
 <h1>IFFE Translator Exercise</h1>
+
 <form>
   <fieldset>
     <legend>Translator</legend>
@@ -20,5 +21,26 @@
 </form>
 <script src="iffe.js"></script>
 <script src="event_listener.js"></script>
+
+
+    <form>
+      <fieldset>
+        <legend>Translator</legend>
+          <textarea name="input" id="input"></textarea><br><br>
+        <select id="language">
+          <option name="spanish" id="spanish">Spanish</option>
+          <option name="french" id="french">French</option>
+          <option name="mandarin" id="mandarin">Mandarin</option>
+        </select><br><br>
+        <textarea name="result" id="result" readonly placeholder="Your translation"></textarea><br>
+        <input type="button" name="translate" id="translate" value="Translate!">
+      </fieldset>
+    </form>
+
+  <script src="event_listener.js"></script>
+  <script src="spanish.js"></script>
+  <script src="iffe.js"></script>
+
+
 </body>
 </html>
